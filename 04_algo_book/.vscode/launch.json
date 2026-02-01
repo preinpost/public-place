@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch B1000",
+            "request": "launch",
+            "mainClass": "baek.B1000",
+            "projectName": "freeboard_1d310ba8"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug",
+            "program": "${workspaceFolder}/_rust/target/debug/_rust",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
